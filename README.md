@@ -79,58 +79,22 @@ Client-server chat applications are foundational to real-time communication over
 
 client:
 
-import socket
-
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-client.connect(("localhost", 9999))
-
-done=False
-
-while not done:
-    client.send(input("Message ").encode('utf-8'))
-    msg = client.recv(1024).decode('utf-8')
-
-    if msg == 'quit':
-        done=True
-    else:
-        print(msg)
-
-
-
-client.close()
-
+<img width="588" height="145" alt="image" src="https://github.com/user-attachments/assets/40196eed-6339-4b6d-897f-67621cc72cf5" />
 
 server:
 
-import socket
-from base64 import decode
-from operator import truediv
-
-server =socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(('localhost', 9999))
-server.listen()
-client,addr=server.accept()
-
-done = False
-
-while not done:
-    msg = client.recv(1024).decode('utf-8')
-
-    if msg == 'quit':
-        done = True
-    else:
-        print(msg)
-
-    client.send(input("Message ").encode('utf-8'))
-
-
-client.close()
-server.close()
+<img width="506" height="341" alt="image" src="https://github.com/user-attachments/assets/5c48db83-f6c1-454f-ae03-7d8eaf585c6b" />
 
 
 ## OUTPUT:
-<img width="832" height="217" alt="WhatsApp Image 2026-05-18 at 12 49 31 PM" src="https://github.com/user-attachments/assets/6206537d-40a9-411c-b6e3-1a7a79919c30" />
+
+server:
+
+<img width="552" height="125" alt="image" src="https://github.com/user-attachments/assets/880a10bb-c462-4b7f-89cb-69a080fd6a7b" />
+
+client:
+
+<img width="546" height="123" alt="image" src="https://github.com/user-attachments/assets/98454173-ffe3-4e41-a5fa-39488af75670" />
 
 
 

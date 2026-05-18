@@ -79,22 +79,21 @@ Client-server chat applications are foundational to real-time communication over
 
 client:
 
-<img width="588" height="145" alt="image" src="https://github.com/user-attachments/assets/40196eed-6339-4b6d-897f-67621cc72cf5" />
+
 
 server:
 
-<img width="506" height="341" alt="image" src="https://github.com/user-attachments/assets/5c48db83-f6c1-454f-ae03-7d8eaf585c6b" />
+
 
 
 ## OUTPUT:
 
 server:
 
-<img width="552" height="125" alt="image" src="https://github.com/user-attachments/assets/880a10bb-c462-4b7f-89cb-69a080fd6a7b" />
+
 
 client:
 
-<img width="546" height="123" alt="image" src="https://github.com/user-attachments/assets/98454173-ffe3-4e41-a5fa-39488af75670" />
 
 
 
